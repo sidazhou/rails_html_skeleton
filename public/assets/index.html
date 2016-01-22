@@ -3,13 +3,38 @@
 
 <head>
   <title>Railshtml</title>
-  <link rel="stylesheet" type="text/css" href="welcome_plain.css">
-  <script type="text/javascript" src="welcome_plain.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
-  <h1>Welcome#index</h1>
-  <p>Find me in app/views/welcome/index.html</p>
+
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="col-md-2 sidebar">
+        <!--Sidebar content-->
+
+        <div class="row-fluid">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+          </button>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <!--Body content-->
+        <div class="row-fluid">
+          <h2>Find me in public/assets/index.html</h2>
+          <p>http://localhost:3000/assets/index.html</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 
